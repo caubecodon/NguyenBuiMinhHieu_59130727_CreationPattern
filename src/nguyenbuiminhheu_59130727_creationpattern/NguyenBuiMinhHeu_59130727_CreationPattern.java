@@ -7,6 +7,7 @@ package nguyenbuiminhheu_59130727_creationpattern;
 
 import Bai1.Bai1Main;
 import Bai3.Bai3Main;
+import Bai2.Bai2Main;
 import java.text.ParseException;
 
 
@@ -21,8 +22,12 @@ public class NguyenBuiMinhHeu_59130727_CreationPattern {
      * @throws java.text.ParseException
      */
     public static void main(String[] args) throws ParseException {
+        System.out.println("\nBai 1:");
         Bai1Main.main(args);
-        Bai3Main.main(args);    
+        System.out.println("\nBai 3:");
+        Bai3Main.main(args);
+        System.out.println("\nBai 2:");
+        Bai2Main.main(args);
     }
     
 }
