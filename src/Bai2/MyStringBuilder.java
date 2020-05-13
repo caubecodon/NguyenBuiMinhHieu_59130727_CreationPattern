@@ -9,8 +9,7 @@ package Bai2;
  *
  * @author nguye
  */
-public class MyStringBuilder 
-{
+public class MyStringBuilder {
     String str;
 
     public MyStringBuilder(String str) {
@@ -18,7 +17,17 @@ public class MyStringBuilder
     }
     
     public MyStringBuilder addString(String s) {
-        str = str + s;
+        str += s;
+        return this;
+    }
+    
+    public MyStringBuilder addFloat(float f) {
+        str += f;
+        return this;
+    }
+    
+    public MyStringBuilder addBool(boolean b) {
+        str += b;
         return this;
     }
     
@@ -26,6 +35,6 @@ public class MyStringBuilder
     public String toString() {
         return str;
     }
-
-
+    
+    
 }
